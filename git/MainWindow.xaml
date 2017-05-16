@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="Label" HorizontalAlignment="Left" Margin="193,62,0,0" VerticalAlignment="Top" Height="30"/>
+        <ListBox x:Name="lbBericht" HorizontalAlignment="Left" Height="100" Margin="193,128,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="328,162,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
     </Grid>
 </Window>
